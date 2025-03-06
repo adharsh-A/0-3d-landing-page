@@ -27,7 +27,7 @@ const Animation = () => {
     // Load 3D Model
     const loader = new GLTFLoader();
     loader.load(
-      "/scene.gltf",
+      "/the_forgotten_knight.glb",
       (gltf) => {
         object = gltf.scene;
         object.scale.set(3.5, 3.5, 3.5);
